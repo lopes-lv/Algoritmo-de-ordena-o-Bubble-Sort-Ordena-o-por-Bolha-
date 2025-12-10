@@ -80,9 +80,9 @@ Lista *ordenacao_int(Lista *l) {
                 
                 contador++;
 
-                // --- ATUALIZAÇÃO DOS PONTEIROS (FALTAVA ISSO) ---
-                anterior = proximo;      // O 'proximo' agora está antes do 'atual'
-                proximo = atual->prox; // O novo 'proximo' é quem vem depois do 'atual'
+              
+                anterior = proximo;      
+                proximo = atual->prox; 
 
                 
 
@@ -103,6 +103,7 @@ Lista *ordenacao_int(Lista *l) {
     
 
     
+
 
 
 
